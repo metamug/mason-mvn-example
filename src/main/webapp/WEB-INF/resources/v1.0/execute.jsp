@@ -4,7 +4,7 @@
 
     <m:request method="GET">
         
-        <m:execute className="com.metamug.seed.RequestProcessor" var="executeResult" param="${mtgReq}" output="true"/>
+        <m:execute className="com.metamug.seed.Processor" var="executeResult" param="${mtgReq}" output="true"/>
 
     </m:request>
 

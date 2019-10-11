@@ -15,7 +15,7 @@ import javax.sql.DataSource;
  *
  * @author anishhirlekar
  */
-public class RequestProcessor implements RequestProcessable {
+public class Processor implements RequestProcessable {
 
     @Override
     public Response process(Request request, DataSource ds, Map<String, Object> args) throws Exception {
