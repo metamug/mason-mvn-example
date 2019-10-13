@@ -2,7 +2,7 @@
 
 <m:resource>
 
-    <m:request method="GET">
+    <m:request method="POST">
         
         <m:execute className="com.metamug.seed.Processor" var="executeResult" param="${mtgReq}" output="true"/>
 
