@@ -5,6 +5,7 @@
  */
 package com.metamug.seed.entity;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 
@@ -16,6 +17,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Customer {
     private int id;
     private String name;
+    @XmlElement(name = "contact")
     private Contact contact;
 
     public void setName(String n) {
