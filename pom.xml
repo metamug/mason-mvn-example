@@ -25,8 +25,39 @@
         <dependency>
             <groupId>com.metamug</groupId>
             <artifactId>mason</artifactId>
-            <version>3.2</version>
+            <version>3.3</version>
         </dependency>
+        
+         <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.github.wnameless</groupId>
+            <artifactId>json-flattener</artifactId>
+            <version>0.6.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.protobuf</groupId>
+                    <artifactId>protobuf-java</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+
         
     </dependencies>
 

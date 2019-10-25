@@ -17,9 +17,9 @@
              name="jdbc/mason"
              username="root"
              password="123456"
-             poolName="seedMvcPool"
+             poolName="masonSamplePool"
              type="javax.sql.DataSource"
              />
-	  <JarScanner scanManifest="false"/>
-    <WatchedResource>/WEB-INF/lib/</WatchedResource>
+  <JarScanner scanManifest="false"/>
+  <WatchedResource>/WEB-INF/lib/</WatchedResource>
 </Context>

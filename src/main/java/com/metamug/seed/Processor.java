@@ -20,15 +20,17 @@ public class Processor implements RequestProcessable {
 
     @Override
     public Response process(Request request, DataSource ds, Map<String, Object> args) throws Exception {
-        String id = request.getParameter("customer.id");
-        String name = request.getParameter("customer.name");
-        String email = request.getParameter("customer.contact.email");
-        String phone = request.getParameter("customer.contact.phone");
+//        String id = request.getParameter("customer.id");
+//        String name = request.getParameter("customer.name");
+//        String email = request.getParameter("customer.contact.email");
+//        String phone = request.getParameter("customer.contact.phone");
+
+        
         
         Customer customer = new Customer();
-        customer.setName(name);
-        customer.setId(Integer.parseInt(id));
-        customer.setContact(phone, email);
+        customer.setName("John Doe");
+        customer.setId(007);
+        customer.setContact("+1 943 322 4292", "john.doe@gmail.com");
         
         Response response = new Response();
         // set your model object as payload here
