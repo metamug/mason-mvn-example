@@ -1,4 +1,4 @@
-<jsp:directive.page pageEncoding="UTF-8" trimDirectiveWhitespaces="true"  errorPage="/WEB-INF/resources/error/500.jsp"/>
+<jsp:directive.page pageEncoding="UTF-8" trimDirectiveWhitespaces="true"/>
 <%@taglib uri="mtg-mason.tld" prefix="m" %>
 
 <m:resource>
