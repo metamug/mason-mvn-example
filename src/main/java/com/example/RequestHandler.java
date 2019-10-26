@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.metamug.seed;
+package com.example;
 
 import com.metamug.entity.Request;
 import com.metamug.entity.Response;
 import com.metamug.exec.RequestProcessable;
-import com.metamug.seed.entity.Customer;
+import com.example.entity.Customer;
 import java.util.Map;
 import javax.sql.DataSource;
 import org.slf4j.Logger;
@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author anishhirlekar
  */
-public class Processor implements RequestProcessable {
+public class RequestHandler implements RequestProcessable {
 
     Logger logger = LoggerFactory.getLogger(RequestProcessable.class.getName());
 

@@ -1,4 +1,4 @@
-package com.metamug.seed.entity;
+package com.example.entity;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
