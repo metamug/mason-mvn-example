@@ -29,7 +29,13 @@
         <dependency>
             <groupId>com.metamug</groupId>
             <artifactId>mason</artifactId>
-            <version>3.3</version>
+            <version>3.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         
          <dependency>
@@ -60,7 +66,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.17</version>
-        </dependency>
+             <exclusions>
+                 <exclusion>
+                     <groupId>com.google.protobuf</groupId>
+                     <artifactId>protobuf-java</artifactId>
+                 </exclusion>
+             </exclusions>
+         </dependency>
         
     </dependencies>
 

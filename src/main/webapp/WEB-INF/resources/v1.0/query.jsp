@@ -1,11 +1,8 @@
-<jsp:directive.page pageEncoding="UTF-8" trimDirectiveWhitespaces="true"/>
-<%@taglib uri="mtg-mason.tld" prefix="m" %>
-
+<jsp:directive.include file="../fragments/mason-init.jspf"/>
 <m:resource>
-
-    <m:request method="GET">
-        <m:execute className="com.example.RequestHandler" var="getCustomer" 
-                   param="${mtgReq}" output="true"/>
+   <m:request method="GET">
+        <sql:query var="myQuery" dataSource="${datasource}">SELECT 'Hello World'
+        </sql:query>
+        <c:set target="${output}" property="myQuery" value="${myQuery}"/>
     </m:request>
-
 </m:resource>

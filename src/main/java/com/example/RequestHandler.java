@@ -5,14 +5,12 @@
  */
 package com.example;
 
+import com.example.entity.Customer;
 import com.metamug.entity.Request;
 import com.metamug.entity.Response;
 import com.metamug.exec.RequestProcessable;
-import com.example.entity.Customer;
 import java.util.Map;
 import javax.sql.DataSource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 /**
@@ -20,8 +18,6 @@ import org.slf4j.LoggerFactory;
  * @author anishhirlekar
  */
 public class RequestHandler implements RequestProcessable {
-
-    Logger logger = LoggerFactory.getLogger(RequestProcessable.class.getName());
 
     @Override
     public Response process(Request request, DataSource ds, Map<String, Object> args) throws Exception {
