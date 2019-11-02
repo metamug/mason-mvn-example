@@ -1,4 +1,5 @@
 /target/
-/.idea/
 /tomcat.8080/
 nb-configuration.xml
+*.classpath
+*.project
