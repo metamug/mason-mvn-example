@@ -35,3 +35,6 @@ The JSP file is the view. The JSP file contains `<m:execute>` tag which calls `p
 ### Model
 
 The RequestProcessable class should contain the business logic which interacts with the business layer of the application.
+
+### Setup
+This maven web project needs a servlet container to work with. Uses mason dependency. To use latest mason, install the dependency on local machine. Check pom.xml for more details
