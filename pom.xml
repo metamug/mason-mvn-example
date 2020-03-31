@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.metamug</groupId>
-    <artifactId>seed-mvc</artifactId>
+    <artifactId>mason-mvn-example</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>seed-mvc</name>
+    <name>mason-example</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

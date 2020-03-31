@@ -10,7 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-web-api:8.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.metamug:mason:3.3" level="project" />
+    <orderEntry type="library" name="Maven: com.metamug:mason:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.4.15" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ivy:ivy:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.10.0" level="project" />

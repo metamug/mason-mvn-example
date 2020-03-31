@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="seed-mvc" options="-endorseddirs C:\Users\pc\IdeaProjects\rest-webapp-example\target/endorsed" />
+      <module name="seed-mvc" options="-endorseddirs F:\projects\rest-webapp-example\target/endorsed" />
     </option>
   </component>
 </project>
