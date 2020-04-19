@@ -3,3 +3,4 @@
 nb-configuration.xml
 *.classpath
 *.project
+/bin/
